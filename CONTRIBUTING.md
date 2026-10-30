@@ -1,30 +1,29 @@
-# Development Flow
+# 開発フロー
 
-## Before starting
-- Create / confirm the Notion Task
-- Clarify scope and acceptance conditions
+## 作業開始前
+- Notionのタスクを作成・確認する
+- 作業範囲と受け入れ条件を明確にする
 
-## Branch
-- Create a working branch
-- Repository-specific branching rules take precedence
+## ブランチ
+- 作業用ブランチを作成する
+- リポジトリ固有のブランチ運用ルールを優先する
 
-## Before creating a PR
-- Self-review your diff
-- Run tests
-- Confirm Local / Dev behavior
-- Check logs for secrets / PII
-- Update documentation if necessary
+## PR作成前
+- 差分をセルフレビューする
+- テストを実行する
+- ローカル環境・開発環境で動作を確認する
+- 必要に応じてドキュメントを更新する
 
-## Pull Request
-- Use the organization PR template
-- Link the related Task
-- Keep PRs reasonably small
-- Explain risks / migrations / infra changes
+## プルリクエスト
+- 組織共通のPRテンプレートを使用する
+- 関連タスクへのリンクを記載する
+- PRはレビューしやすい適切な規模に抑える
+- リスク・マイグレーション・インフラ変更について説明する
 
-## Review
-- At least one appropriate reviewer
-- Resolve review comments
-- CI / required checks must pass
+## レビュー
+- 適切なレビュアーを少なくとも1名選ぶ
+- レビューコメントに対応し、解決する
+- CI・必須チェックがすべて成功していることを確認する
 
-## Merge
-- Follow repository branch protection rules
+## マージ
+- リポジトリのブランチ保護ルールに従う
